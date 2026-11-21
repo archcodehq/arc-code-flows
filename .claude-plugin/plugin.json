@@ -1,0 +1,15 @@
+{
+  "name": "arc-code-flows",
+  "version": "0.2.0",
+  "description": "Uses Arc Code's .arch/ static diagrams as reference before re-reading source for flow/function/class questions, stages proposed architecture changes in a review folder before implementing them, and plans new architectures from a natural-language demand via /arch-plan.",
+  "author": {
+    "name": "Alexandre"
+  },
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": {
+    "arc-code": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/../npx/dist/cli/index.js", "mcp"]
+    }
+  }
+}

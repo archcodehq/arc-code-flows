@@ -1,0 +1,16 @@
+name: arc-code-flows
+version: 0.2.0
+description: Uses Arc Code's .arch/ diagrams as reference before re-reading source, stages proposed architecture diagrams for review before implementing, and plans new architectures from natural language via /arch-plan.
+author: Alexandre
+
+provides_hooks:
+  - SessionStart
+
+provides_skills:
+  - arc-code-flows
+
+provides_commands:
+  - arch-plan
+
+provides_mcp_servers:
+  - arc-code

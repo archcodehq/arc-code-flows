@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "arc-code-flows",
+  "description": "Local marketplace for the arc-code-flows plugin (dev install).",
+  "owner": {
+    "name": "Alexandre"
+  },
+  "plugins": [
+    {
+      "name": "arc-code-flows",
+      "description": "Uses Arc Code's .arch/ diagrams as reference, stages proposed architecture changes for review, and plans new architectures from natural language via /arch-plan.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
